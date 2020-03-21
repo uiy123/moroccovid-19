@@ -76,8 +76,8 @@ body {
 
 @media (max-width: 768px) {
   .corona iframe {
-    width: 400px;
-    height: 315px;
+     max-width: 100%;
+    height: 200px;
   }
 }
 
@@ -116,9 +116,11 @@ body {
 .map {
   margin-top: 30px;
 }
+
+/*added a margin-top in order to make the tow divs in the same horizon*/
 .mapdiv {
   width: 50%;
-  margin: auto;
+  margin-top: 100px;
   padding: 50px;
   float: right;
 }
@@ -162,9 +164,17 @@ body {
   background-color: #dece0c;
 }
 
+/*responsive view*/
+/* added a responsive view for the svg to make it stay inside the frame*/
+/**/
 @media (max-width: 768px) {
   .mapdiv {
     width: 100%;
+    padding: 0 45px 0 0 !important;
+    margin-top: 0px !important;
+  } 
+  .mapdiv svg{
+     max-width:100%;
   }
   .maplist {
     width: 100%;
