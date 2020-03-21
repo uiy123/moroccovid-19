@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Jomhuria&display=swap');
+/* Start Main Rulez */
+h1, h2, h3{
+	font-family: 'Jomhuria', cursive;
+}
+b{
+	color: #1d1d1d;
+}
+.b1{
+	font-size: 50px !important;
+}
+.b2{
+	font-size: 30px !important;
+	color: #1d1d1d;
+}
+body {
+	font-family: 'Jomhuria', cursive;
+	background-color:white;
+	font-size: 30px;
+	color: #fff;
+}
+
+/* End Main Rulez */
+
+/* Start Bootstrap Edits */
+
+.panel-default {
+	border: black 1px solid !important;
+}
+
+.panel-heading {
+	
+	background-color: #36b9cc !important;
+	color: #fff !important;
+	border-color: #ddd;
+	
+}
+.nav-link {
+	font-size: 25px !important;
+}
+
+/* Start Bootstrap Edits */
+
+/* Start Index Page */
+
+/* Start Upper Bar */
+
+.text-co{
+	margin-bottom: 20px;
+}
+.wtm:hover,.text-co:hover{
+	color: #1d1d1d;
+	cursor: default;
+}
+
+.upper-bar .info{
+	margin: 10px 0;
+	
+}
+
+.home-nombre{
+	
+	border: 1px solid #000;
+}
+.home-nombres .nombres {
+	display: inline-block;
+    padding: 10px 5px;
+    margin-left: 40px;
+	border-radius: 5px;
+	margin-top:5px;
+	font-size: 100;
+}
+.home-nombres .nombres span {
+    display: block;
+	font-size: 15px;
+	margin-top:5px;
+}
+.home-nombres .nombres i{
+	background-color: #EEE;
+	border: 1px solid #ccc;
+	padding: 15px 50px;
+	border-radius: 5px;
+}
+
+/* End Upper bar */
+
+/* Start Body */
+
+.corona iframe {
+	
+	width:  560px;
+	height: 315px;
+	
+}
+
+@media (max-width: 768px) {
+	
+	.corona iframe {
+	
+		width: 400px;
+		height: 315px;
+	
+	}
+} 
+
+.home-stats .stat {
+	background-color: #36b9cc;
+	BORDER: 1px solid #ccc;
+	padding:20px;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+.home-stats .stat span {
+    display: block;
+}
+
+.latest {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+.link {
+	background: ##36b9cc;
+}
+
+.row {
+	margin: 1px;
+}
+
+.col-md-6 {
+	max-width: 49%;
+	margin-right: 1px;
+	font-family: 'Jomhuria', cursive !important;
+}
+
+/* Start Map */
+
+.map {
+	
+	margin-top: 30px;
+	
+}
+.mapdiv {
+	
+	width: 50%;
+	margin: auto;
+	padding: 50px;
+	float: right;
+}
+
+
+.mapdiv svg {
+	
+	width: 600px;	
+}
+
+.mapdiv path {
+	
+	fill: #2FA4E7;
+	stroke: #1d1d1d;
+	stroke-width: 2px;
+	transition: fill 0.3s;
+	
+}
+
+.maplist {
+	
+	float: right;
+	width: 50%;
+	margin-top: 100px;
+	border: 1px solid #1d1d1d;
+	padding: 30px;
+	
+}
+
+.maplist a {
+	
+	text-decoration: none;
+	trasnition: color 0.3s;
+	
+}
+
+
+.mapdiv :hover {
+	
+	fill: #4b4c4e;
+	
+}
+.maplist .grid-item {
+	
+	background-color: #36b9cc;
+	margin: 20px;
+	padding: 5px;
+	width: 100%;
+	
+}
+
+.maplist .grid-item span {	
+	
+	display: block;
+	background-color: #e9ecef;
+	color: #1d1d1d;
+
+}
+
+@media (max-width: 768px) {
+	
+	.mapdiv {
+		
+		width: 100%;
+	}
+	.maplist {
+			
+		width: 100%;
+		margin: 0px;
+		
+	}
+} 
+
+/* End Map */
+
+/* End Body
+
+/* Start Footer */
+
+.footer{
+    padding: 10px;
+}
+.footer ul{
+    margin: 0;
+	float: left;
+}
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li a{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 18px;
+	color: #fff;
+}
+
+/* End Footer */
+
+/* End Index Page */
+
+.logo{
+	height: 46px;
+	
+}
+.navbar-nav{
+	margin-left: 250px;
+	
+}
+
+.wtm {
+	position: relative;
+}
+
+.wtm::after {
+    border-bottom-width: 2px;
+    content: "";
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 2px;
+}
+.nav-link{
+	font-size: 16px;
+	margin-right: 25px;
+
+}
